@@ -9,6 +9,8 @@ try:
     import cartopy.crs as ccrs
 except OSError:
     cpf = ccrs = None
+except ModuleNotFoundError as imperr:
+    raise ModuleNotFoundError('see https://scitools.org.uk/cartopy/')
 
 import matplotlib.pyplot as plt
 import numpy as np

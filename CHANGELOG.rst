@@ -2,6 +2,12 @@
 Changelog
 =========
 
+Version 0.7.8, February 11, 2023
+================================
+HyperplaneOrg (2)
+    * Removed cartopy from the requirements.txt and appveyor.yml files, due to excessive dependencies and limited value.
+    * Add exception note in plot.py if cartopy is not available.
+
 Version 0.7.7, June 3, 2021
 ================================
 Per A Brodtkorb (27):
